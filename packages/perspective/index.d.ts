@@ -1,4 +1,4 @@
-declare module "@finos/perspective" {
+declare module "@shortex/perspective" {
     import * as ws from "ws";
 
     export type Type =

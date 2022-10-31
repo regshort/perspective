@@ -1,6 +1,6 @@
 {
     "name": "@shortex/perspective-viewer-datagrid",
-    "version": "1.7.2",
+    "version": "1.8.1",
     "description": "Perspective datagrid plugin based on `regular-table`",
     "unpkg": "dist/umd/perspective-viewer-datagrid.js",
     "main": "dist/umd/perspective-viewer-datagrid.js",
@@ -47,6 +47,7 @@
     },
     "devDependencies": {
         "@finos/perspective-esbuild-plugin": "^1.7.1",
-        "@finos/perspective-test": "^1.7.2"
-    }
+        "@finos/perspective-test": "^1.8.1"
+    },
+    "gitHead": "13a4ad4b635587927bda92eb6144a3435119adea"
 }

@@ -1,6 +1,6 @@
 {
     "name": "@shortex/perspective-docs",
-    "version": "1.7.2",
+    "version": "1.8.1",
     "private": true,
     "scripts": {
         "docusaurus": "docusaurus",

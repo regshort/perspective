@@ -1,6 +1,6 @@
 {
     "name": "@shortex/perspective-viewer-d3fc",
-    "version": "1.7.2",
+    "version": "1.8.1",
     "description": "Perspective.js D3FC Plugin",
     "unpkg": "./dist/umd/perspective-viewer-d3fc.js",
     "jsdelivr": "./dist/umd/perspective-viewer-d3fc.js",
@@ -62,6 +62,7 @@
         "gradient-parser": "1.0.2"
     },
     "devDependencies": {
-        "@finos/perspective-test": "^1.7.2"
-    }
+        "@finos/perspective-test": "^1.8.1"
+    },
+    "gitHead": "13a4ad4b635587927bda92eb6144a3435119adea"
 }

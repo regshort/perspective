@@ -1,7 +1,7 @@
 {
     "name": "workspace-editing-python",
     "private": true,
-    "version": "1.8.1",
+    "version": "1.8.2",
     "description": "An example app demonstrating client/server editing, built using `@finos/perspective-workspace` and `perspective-python`.",
     "scripts": {
         "start": "yarn webpack && yarn start:server",

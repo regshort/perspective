@@ -1,6 +1,6 @@
 {
     "name": "@shortex/perspective-esbuild-plugin",
-    "version": "1.8.1",
+    "version": "1.8.2",
     "description": "esbuild plugin for Perspective",
     "author": "",
     "license": "Apache-2.0",

@@ -25,10 +25,10 @@
         "perspective": "perspective"
     },
     "dependencies": {
-        "@finos/perspective": "^1.7.1",
-        "@finos/perspective-viewer": "^1.7.1",
-        "@finos/perspective-viewer-d3fc": "^1.7.1",
-        "@finos/perspective-viewer-datagrid": "^1.7.1",
+        "@shortex/perspective": "^1.8.1",
+        "@shortex/perspective-viewer": "^1.8.1",
+        "@shortex/perspective-viewer-d3fc": "^1.8.1",
+        "@shortex/perspective-viewer-datagrid": "^1.8.1",
         "commander": "^2.19.0",
         "puppeteer": "^13.1.3"
     },

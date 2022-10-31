@@ -1,6 +1,6 @@
 {
-    "name": "@finos/perspective-esbuild-plugin",
-    "version": "1.7.1",
+    "name": "@shortex/perspective-esbuild-plugin",
+    "version": "1.7.2",
     "description": "esbuild plugin for Perspective",
     "author": "",
     "license": "Apache-2.0",
@@ -19,7 +19,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/finos/perspective/packages/perspective-build"
+        "url": "https://github.com/shortex/perspective/packages/perspective-build"
     },
     "dependencies": {
         "node-fetch": "^2.6.7",

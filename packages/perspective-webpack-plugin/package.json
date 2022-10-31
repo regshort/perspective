@@ -1,6 +1,6 @@
 {
-    "name": "@finos/perspective-webpack-plugin",
-    "version": "1.7.1",
+    "name": "@shortex/perspective-webpack-plugin",
+    "version": "1.7.2",
     "description": "Perspective.js Webpack Plugin",
     "main": "index.js",
     "publishConfig": {
@@ -17,7 +17,7 @@
     "jest": {},
     "repository": {
         "type": "git",
-        "url": "https://github.com/finos/perspective"
+        "url": "https://github.com/shortex/perspective"
     },
     "author": "",
     "license": "Apache-2.0",

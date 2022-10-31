@@ -1,6 +1,6 @@
 {
-    "name": "@finos/perspective-jupyterlab",
-    "version": "1.7.1",
+    "name": "@shortex/perspective-jupyterlab",
+    "version": "1.7.2",
     "description": "A Jupyterlab extension for the Perspective library, designed to be used with perspective-python.",
     "files": [
         "dist/**/*",
@@ -43,7 +43,7 @@
     },
     "devDependencies": {
         "@finos/perspective-esbuild-plugin": "^1.7.1",
-        "@finos/perspective-test": "^1.7.1"
+        "@finos/perspective-test": "^1.7.2"
     },
     "jupyterlab": {
         "extension": true

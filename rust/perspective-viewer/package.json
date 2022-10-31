@@ -1,10 +1,10 @@
 {
-    "name": "@finos/perspective-viewer",
-    "version": "1.7.1",
+    "name": "@shortex/perspective-viewer",
+    "version": "1.7.2",
     "description": "The `<perspective-viewer>` Custom Element, frontend for Perspective.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/finos/perspective"
+        "url": "https://github.com/shortex/perspective"
     },
     "license": "Apache-2.0",
     "unpkg": "dist/umd/perspective-viewer.js",
@@ -55,6 +55,6 @@
     },
     "devDependencies": {
         "@finos/perspective-esbuild-plugin": "^1.7.1",
-        "@finos/perspective-test": "^1.7.1"
+        "@finos/perspective-test": "^1.7.2"
     }
 }

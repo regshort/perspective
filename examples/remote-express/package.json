@@ -1,7 +1,7 @@
 {
     "name": "remote-express",
     "private": true,
-    "version": "1.9.0",
+    "version": "1.9.1",
     "description": "An example of 2 Perspectives, one client and one server, streaming via Apache Arrow.",
     "scripts": {
         "start": "tsc && node dist/server.js"

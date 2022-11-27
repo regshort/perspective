@@ -1,6 +1,6 @@
 {
     "name": "@shortex/perspective-webpack-plugin",
-    "version": "1.9.2",
+    "version": "1.9.3",
     "description": "Perspective.js Webpack Plugin",
     "main": "index.js",
     "publishConfig": {

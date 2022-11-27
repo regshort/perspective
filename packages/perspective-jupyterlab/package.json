@@ -1,6 +1,6 @@
 {
     "name": "@shortex/perspective-jupyterlab",
-    "version": "1.9.2",
+    "version": "1.9.3",
     "description": "A Jupyterlab extension for the Perspective library, designed to be used with perspective-python.",
     "files": [
         "dist/**/*",
@@ -35,15 +35,15 @@
         "@jupyterlab/application": "^3.3.2",
         "@lumino/application": "^1.27.0",
         "@lumino/widgets": "1.33.0",
-        "@shortex/perspective": "^1.9.2",
-        "@shortex/perspective-viewer": "^1.9.2",
-        "@shortex/perspective-viewer-d3fc": "^1.9.2",
-        "@shortex/perspective-viewer-datagrid": "^1.9.2",
-        "@shortex/perspective-viewer-openlayers": "^1.9.2"
+        "@shortex/perspective": "^1.9.3",
+        "@shortex/perspective-viewer": "^1.9.3",
+        "@shortex/perspective-viewer-d3fc": "^1.9.3",
+        "@shortex/perspective-viewer-datagrid": "^1.9.3",
+        "@shortex/perspective-viewer-openlayers": "^1.9.3"
     },
     "devDependencies": {
-        "@shortex/perspective-esbuild-plugin": "^1.9.2",
-        "@shortex/perspective-test": "^1.9.2"
+        "@shortex/perspective-esbuild-plugin": "^1.9.3",
+        "@shortex/perspective-test": "^1.9.3"
     },
     "jupyterlab": {
         "extension": true

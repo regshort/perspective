@@ -1,7 +1,7 @@
 {
     "name": "git-history",
     "private": true,
-    "version": "1.9.2",
+    "version": "1.9.3",
     "description": "An example of Perspective's own GIT history rendered in Perspective.",
     "scripts": {
         "start": "node server.js"

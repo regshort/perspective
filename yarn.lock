@@ -2599,6 +2599,92 @@
     unique-filename "^1.1.1"
     which "^1.3.1"
 
+"@finos/perspective-esbuild-plugin@^1.7.1":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-esbuild-plugin/-/perspective-esbuild-plugin-1.7.2.tgz#c9e332da492871cdd2688e511dfe7cd932b46b3c"
+  integrity sha512-UeDKaBNWIKe5y+rvKb4E+ym9EMdDtgDXiEDzk/pjA2Svv6q5sIFd1n5ZoclKxvPPC+CtzfcQygzvtlbp6jZb6A==
+  dependencies:
+    node-fetch "^2.6.7"
+    tar "^6.1.11"
+
+"@finos/perspective-viewer-d3fc@^1.7.1":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer-d3fc/-/perspective-viewer-d3fc-1.7.2.tgz#5f13fd4080df136f8f29ea5b702683b67d47391c"
+  integrity sha512-K5Iju+P5TzAnm45ZtebPAouEAKK9XDzoUeqGhg7pR8ft+wNRjCX53Rz7cfmH9QNR5Vg2rS0vhE1MpQl1ISAhTQ==
+  dependencies:
+    "@finos/perspective" "^1.7.2"
+    "@finos/perspective-viewer" "^1.7.2"
+    chroma-js "^1.3.4"
+    d3 "^7.1.1"
+    d3-svg-legend "^2.25.6"
+    d3fc "15.2.4"
+    gradient-parser "1.0.2"
+
+"@finos/perspective-viewer-datagrid@^1.7.1":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer-datagrid/-/perspective-viewer-datagrid-1.7.2.tgz#f32218025f9f2a8f180920e3d3d4172d8b2491b6"
+  integrity sha512-aaZn4CIRgx7nZhuiwOiTrq9EbGLbAYegAxcM/rC/9/fCEUD2DPkoZgXEjs1v7tgyqBioZYoyF0/CtyM0KEn6bg==
+  dependencies:
+    "@finos/perspective" "^1.7.2"
+    "@finos/perspective-viewer" "^1.7.2"
+    chroma-js "^1.3.4"
+    regular-table "=0.5.6"
+
+"@finos/perspective-viewer-openlayers@^1.7.1":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer-openlayers/-/perspective-viewer-openlayers-1.7.2.tgz#b5c6693d0eea09983d00f863c7579370694017ef"
+  integrity sha512-YLxvnEXViAg4NmBimbvWa2MHPe6EnpW93cQ0bZAKyBj7ljHvUoDA93YAJ6ij0lkJQZmSC3JefnLu7ARAPnil7w==
+  dependencies:
+    "@finos/perspective" "^1.7.2"
+    "@finos/perspective-viewer" "^1.7.2"
+    d3 "^7.1.1"
+    gradient-parser "1.0.2"
+    less "^4.1.0"
+    ol "^5.3.2"
+
+"@finos/perspective-viewer@^1.7.1", "@finos/perspective-viewer@^1.7.2":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer/-/perspective-viewer-1.7.2.tgz#090a92fc24dcc95ce9645337e27228b129a5d50e"
+  integrity sha512-+3wEL8S8n1nsQA22KEcJNPA5GnSsA4deMjohc+uWqI7QazhKIsbLAyunpEMmxc3XSs7MOLrHmnI6N1BcFSxAJA==
+  dependencies:
+    "@finos/perspective" "^1.7.2"
+    fflate "^0.7.2"
+    mobile-drag-drop-shadow-dom "3.0.0"
+
+"@finos/perspective-webpack-plugin@^1.7.1":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-webpack-plugin/-/perspective-webpack-plugin-1.7.2.tgz#c3e1b89f415e8e4cb5fb6fd37aaa8b23ecf81104"
+  integrity sha512-R2gFyJ+t9WGNio/siIEgmLr+Le19zxn+xmC0X2lr1/6v1MAd7GbNvIrm1ha/+hQKd84bEx4X7MehxaqJ0dNvVw==
+  dependencies:
+    arraybuffer-loader "^1.0.2"
+    css-loader "^0.28.7"
+    cssnano "^4.1.10"
+    cssnano-preset-lite "^1.0.1"
+    exports-loader "^3.1.0"
+    postcss "^8"
+    postcss-loader "^7"
+    string-replace-loader "^3.0.1"
+    worker-loader "^3.0.7"
+
+"@finos/perspective-workspace@^1.7.1":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-workspace/-/perspective-workspace-1.7.2.tgz#794b991fea6d2074db271d0875e6bf3598fae259"
+  integrity sha512-bz0CIQRyqLKam6F4EV1JJnX6YHjNXEbtUcU9A0U/qQ9+7neDM98+c6rzyud3KgxlBDayP299a+OE/2xo8rZRMw==
+  dependencies:
+    "@finos/perspective-viewer" "^1.7.2"
+    "@lumino/algorithm" "1.9.1"
+    "@lumino/commands" "1.20.0"
+    "@lumino/widgets" "1.31.1"
+    lodash "^4.17.4"
+
+"@finos/perspective@^1.7.1", "@finos/perspective@^1.7.2":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-1.7.2.tgz#f656a692a65b4d007edb2cd0cbc9e443155fe176"
+  integrity sha512-C2k4C+tzrvxFKFTv5Lx/fbjphgBsJoGwnk/vYw7XKADaNU46GE+X82Z8pD7epzkEev3qNdCOWd2JrAHR4hrnQQ==
+  dependencies:
+    fflate "^0.7.2"
+    ws "^6.1.2"
+
 "@fortawesome/fontawesome-free@^5.12.0":
   version "5.15.2"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.15.2.tgz#218cd7276ab4f9ab57cc3d2efa2697e6a579f25d"

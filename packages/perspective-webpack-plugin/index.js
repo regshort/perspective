@@ -7,7 +7,7 @@
  *
  */
 
-const {get_config} = require("@finos/perspective");
+const {get_config} = require("@shortex/perspective");
 const path = require("path");
 const webpack = require("webpack");
 const cssnano = require("cssnano");
@@ -21,13 +21,13 @@ class PerspectiveWebpackPlugin {
                 inlineWasm: false,
                 inlineWorker: false,
                 wasmPath: path.dirname(
-                    require.resolve("@finos/perspective/package.json")
+                    require.resolve("@shortex/perspective/package.json")
                 ),
                 viewerPath: path.dirname(
-                    require.resolve("@finos/perspective-viewer/package.json")
+                    require.resolve("@shortex/perspective-viewer/package.json")
                 ),
                 workerPath: path.dirname(
-                    require.resolve("@finos/perspective/package.json")
+                    require.resolve("@shortex/perspective/package.json")
                 ),
                 wasmName: "[name].wasm",
                 workerName: "[name].js",
@@ -105,20 +105,20 @@ class PerspectiveWebpackPlugin {
         }
 
         const plugin_replace = new webpack.NormalModuleReplacementPlugin(
-            /@finos\/perspective$/,
-            "@finos/perspective/dist/esm/perspective.js"
+            /@shortex\/perspective$/,
+            "@shortex/perspective/dist/esm/perspective.js"
         );
         plugin_replace.apply(compiler);
 
         const plugin_replace2 = new webpack.NormalModuleReplacementPlugin(
-            /@finos\/perspective\-viewer$/,
-            "@finos/perspective-viewer/dist/esm/perspective-viewer.js"
+            /@shortex\/perspective\-viewer$/,
+            "@shortex/perspective-viewer/dist/esm/perspective-viewer.js"
         );
         plugin_replace2.apply(compiler);
 
         const plugin_replace3 = new webpack.NormalModuleReplacementPlugin(
-            /@finos\/perspective\-workspace$/,
-            "@finos/perspective-workspace/dist/esm/perspective-workspace.js"
+            /@shortex\/perspective\-workspace$/,
+            "@shortex/perspective-workspace/dist/esm/perspective-workspace.js"
         );
         plugin_replace3.apply(compiler);
 

@@ -1,7 +1,7 @@
 {
     "name": "remote-workspace",
     "private": true,
-    "version": "1.8.3",
+    "version": "1.8.4",
     "description": "An example app built using `@finos/perspective-workspace`.",
     "scripts": {
         "start:server": "webpack serve --open",

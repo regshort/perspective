@@ -1,6 +1,6 @@
 {
     "name": "@shortex/perspective-viewer-openlayers",
-    "version": "1.8.3",
+    "version": "1.8.4",
     "unpkg": "dist/umd/perspective-viewer-openlayers.js",
     "main": "dist/umd/perspective-viewer-openlayers.js",
     "jsdelivr": "dist/umd/perspective-viewer-openlayers.js",
@@ -33,12 +33,12 @@
         "clean:screenshots": "rimraf \"test/screenshots/**/*.@(failed|diff).png\""
     },
     "dependencies": {
-        "@shortex/perspective": "^1.8.3",
-        "@shortex/perspective-viewer": "^1.8.3",
+        "@shortex/perspective": "^1.8.4",
+        "@shortex/perspective-viewer": "^1.8.4",
         "d3": "^7.1.1",
         "gradient-parser": "1.0.2",
         "less": "^4.1.0",
         "ol": "^5.3.2"
     },
-    "gitHead": "13a4ad4b635587927bda92eb6144a3435119adea"
+    "gitHead": "9e007ee7b50fe13abd13a17399bfe7b355e669b9"
 }

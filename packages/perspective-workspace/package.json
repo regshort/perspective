@@ -1,6 +1,6 @@
 {
     "name": "@shortex/perspective-workspace",
-    "version": "1.8.3",
+    "version": "1.8.4",
     "description": "Perspective Workspace",
     "files": [
         "dist/**/*",
@@ -46,12 +46,12 @@
         "@lumino/algorithm": "1.9.1",
         "@lumino/commands": "1.20.0",
         "@lumino/widgets": "1.31.1",
-        "@shortex/perspective-viewer": "^1.8.3",
+        "@shortex/perspective-viewer": "^1.8.4",
         "lodash": "^4.17.4"
     },
     "devDependencies": {
-        "@shortex/perspective-esbuild-plugin": "^1.8.3",
-        "@shortex/perspective-test": "^1.8.3"
+        "@shortex/perspective-esbuild-plugin": "^1.8.4",
+        "@shortex/perspective-test": "^1.8.4"
     },
-    "gitHead": "13a4ad4b635587927bda92eb6144a3435119adea"
+    "gitHead": "9e007ee7b50fe13abd13a17399bfe7b355e669b9"
 }

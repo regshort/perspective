@@ -1,6 +1,6 @@
 {
     "name": "@shortex/perspective-esbuild-plugin",
-    "version": "1.8.3",
+    "version": "1.8.4",
     "description": "esbuild plugin for Perspective",
     "author": "",
     "license": "Apache-2.0",
@@ -25,5 +25,5 @@
         "node-fetch": "^2.6.7",
         "tar": "^6.1.11"
     },
-    "gitHead": "13a4ad4b635587927bda92eb6144a3435119adea"
+    "gitHead": "9e007ee7b50fe13abd13a17399bfe7b355e669b9"
 }

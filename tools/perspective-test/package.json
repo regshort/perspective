@@ -1,6 +1,6 @@
 {
     "name": "@shortex/perspective-test",
-    "version": "1.8.3",
+    "version": "1.8.4",
     "description": "Test utility based on perspective",
     "private": true,
     "main": "src/js/index.js",

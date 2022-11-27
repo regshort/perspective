@@ -1,6 +1,6 @@
 {
     "name": "@shortex/perspective",
-    "version": "1.8.4",
+    "version": "1.9.0",
     "description": "Perspective.js",
     "repository": {
         "type": "git",
@@ -60,12 +60,12 @@
         "ws": "^6.1.2"
     },
     "devDependencies": {
-        "@shortex/perspective-cpp": "^1.8.4",
-        "@shortex/perspective-esbuild-plugin": "^1.8.4",
+        "@shortex/perspective-cpp": "^1.9.0",
+        "@shortex/perspective-esbuild-plugin": "^1.9.0",
         "jsverify": "^0.8.4",
         "lodash": "^4.17.4",
         "moment": "^2.19.1",
         "papaparse": "^5.2.0"
     },
-    "gitHead": "9e007ee7b50fe13abd13a17399bfe7b355e669b9"
+    "gitHead": "3072a1654af8751d5ecd58f7e8a29971312c08ee"
 }

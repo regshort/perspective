@@ -1,6 +1,6 @@
 {
     "name": "@shortex/perspective-webpack-plugin",
-    "version": "1.8.4",
+    "version": "1.9.0",
     "description": "Perspective.js Webpack Plugin",
     "main": "index.js",
     "publishConfig": {
@@ -35,5 +35,5 @@
     "peerDependencies": {
         "webpack": "^5.60.0"
     },
-    "gitHead": "9e007ee7b50fe13abd13a17399bfe7b355e669b9"
+    "gitHead": "3072a1654af8751d5ecd58f7e8a29971312c08ee"
 }

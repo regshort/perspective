@@ -1,6 +1,6 @@
 {
     "name": "@shortex/perspective-cli",
-    "version": "1.8.4",
+    "version": "1.9.0",
     "description": "Perspective.js CLI",
     "main": "src/js/index.js",
     "publishConfig": {
@@ -25,12 +25,12 @@
         "perspective": "perspective"
     },
     "dependencies": {
-        "@shortex/perspective": "^1.8.4",
-        "@shortex/perspective-viewer": "^1.8.4",
-        "@shortex/perspective-viewer-d3fc": "^1.8.4",
-        "@shortex/perspective-viewer-datagrid": "^1.8.4",
+        "@shortex/perspective": "^1.9.0",
+        "@shortex/perspective-viewer": "^1.9.0",
+        "@shortex/perspective-viewer-d3fc": "^1.9.0",
+        "@shortex/perspective-viewer-datagrid": "^1.9.0",
         "commander": "^2.19.0",
         "puppeteer": "^13.1.3"
     },
-    "gitHead": "9e007ee7b50fe13abd13a17399bfe7b355e669b9"
+    "gitHead": "3072a1654af8751d5ecd58f7e8a29971312c08ee"
 }

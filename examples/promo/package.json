@@ -1,7 +1,7 @@
 {
     "name": "promo",
     "private": true,
-    "version": "1.8.4",
+    "version": "1.9.0",
     "description": "An puppeteer-guided demo of Perspective's functionality, as seen on Github.",
     "scripts": {
         "dev": "webpack-dev-server --open",

@@ -1,6 +1,6 @@
 {
     "name": "@shortex/perspective-viewer",
-    "version": "1.9.1",
+    "version": "1.9.2",
     "description": "The `<perspective-viewer>` Custom Element, frontend for Perspective.js",
     "repository": {
         "type": "git",
@@ -49,13 +49,13 @@
         "access": "public"
     },
     "dependencies": {
-        "@shortex/perspective": "^1.9.1",
+        "@shortex/perspective": "^1.9.2",
         "fflate": "^0.7.2",
         "mobile-drag-drop-shadow-dom": "3.0.0"
     },
     "devDependencies": {
-        "@shortex/perspective-esbuild-plugin": "^1.9.1",
-        "@shortex/perspective-test": "^1.9.1"
+        "@shortex/perspective-esbuild-plugin": "^1.9.2",
+        "@shortex/perspective-test": "^1.9.2"
     },
     "gitHead": "3072a1654af8751d5ecd58f7e8a29971312c08ee"
 }

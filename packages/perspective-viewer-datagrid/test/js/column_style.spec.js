@@ -7,10 +7,10 @@
  *
  */
 
-const utils = require("@finos/perspective-test");
+const utils = require("@shortex/perspective-test");
 const path = require("path");
 
-const simple_tests = require("@finos/perspective-viewer/test/js/simple_tests.js");
+const simple_tests = require("@shortex/perspective-viewer/test/js/simple_tests.js");
 
 async function get_contents(
     page,

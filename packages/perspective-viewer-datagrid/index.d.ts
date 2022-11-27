@@ -1,4 +1,4 @@
-import type {IPerspectiveViewerPlugin} from "@finos/perspective-viewer";
+import type {IPerspectiveViewerPlugin} from "@shortex/perspective-viewer";
 
 declare global {
     interface CustomElementRegistry {

@@ -1,11 +1,11 @@
 const {
     NodeModulesExternal,
-} = require("@finos/perspective-esbuild-plugin/external");
+} = require("@shortex/perspective-esbuild-plugin/external");
 const {
     InlineCSSPlugin,
-} = require("@finos/perspective-esbuild-plugin/inline_css");
-const {UMDLoader} = require("@finos/perspective-esbuild-plugin/umd");
-const {build} = require("@finos/perspective-esbuild-plugin/build");
+} = require("@shortex/perspective-esbuild-plugin/inline_css");
+const {UMDLoader} = require("@shortex/perspective-esbuild-plugin/umd");
+const {build} = require("@shortex/perspective-esbuild-plugin/build");
 
 const BUILD = [
     {

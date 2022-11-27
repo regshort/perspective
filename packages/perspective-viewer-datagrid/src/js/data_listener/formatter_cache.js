@@ -7,7 +7,7 @@
  *
  */
 
-import {get_type_config} from "@finos/perspective/src/js/config/index.js";
+import {get_type_config} from "@shortex/perspective/src/js/config/index.js";
 
 const FORMATTER_CONS = {
     datetime: Intl.DateTimeFormat,
